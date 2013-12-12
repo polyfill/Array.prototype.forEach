@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <script src="../Array.prototype.forEach.js"></script>
+    <script>
+      var eq = function (a, b) {if (a !== b) {throw new Error(a + 'not equal' + 'b')}}
+      var arr = ['a', 'b'];
+
+      arr.forEach(function (item, index) {
+        eq(item, arr[index]);
+      });
+
+      console.log('pass');
+    </script>
+  </body>
+</html>

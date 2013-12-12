@@ -1,0 +1,12 @@
+{
+  "name": "Array.prototype.forEach",
+  "repo": "polyfill/Array.prototype.forEach",
+  "description": "Polyfill Array.prototype.forEach",
+  "version": "0.0.1",
+  "keywords": [],
+  "license": "MIT",
+  "main": "Array.prototype.forEach.js",
+  "scripts": [
+    "Array.prototype.forEach.js"
+  ]
+}
